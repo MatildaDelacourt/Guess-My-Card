@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 2rem auto;
+  letter-spacing: 2px;
+}
+
+.deck-container {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 4rem);
+  grid-template-rows: 7rem;
+  gap: 0.5rem;
+  cursor: pointer;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.deck {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+  color: white;
+  user-select: none;
+}
+
+.computer-deck {
+  background-color: green;
+}
+
+.middle-container {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 16rem;
+  grid-template-rows: 7rem;
+  row-gap: 0.5rem;
+  cursor: pointer;
+  place-content: center;
+  padding: 1rem;
+}
+
+.text {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.card.red {
+  color: red;
+}
+
+.card.black {
+  color: black;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  content: attr(data-value);
+  font-size: 1rem;
+}
+
+.card::before {
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.card::after {
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transform: rotate(180deg);
+}
+
+.btn-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 20ch;
+  border-radius: 0.5rem;
+}
+
+.new-game {
+  height: 6ch;
+  margin: auto;
+}
+
+.clubs {
+  background-color: black;
+}
+
+.diamonds {
+  background-color: red;
+}
+
+.hearts {
+  background-color: red;
+}
+
+.spades {
+  background-color: black;
+}
