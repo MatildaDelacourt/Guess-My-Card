@@ -1,16 +1,5 @@
 # Guess My Card
 
-## Installation
-
-```bash
-npm install
-```
-
-## VS Code Extensions
-
-1. Prettier
-2. ESLint
-
 # [Guess My Card Game](https://card-game-matildadelacourt.netlify.app)
 
 
