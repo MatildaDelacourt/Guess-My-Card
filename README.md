@@ -1,5 +1,7 @@
 # Guess My Card
 
+### In this game you will be guessing what card is about to pop up next, it could either be Diamonds, Clubs, Hearts or Spades, there are 52 cards that you can guess and after they are done it will restart the game. Everytime you win you will get points and every time you lose you will lose points.
+
 # [Guess My Card Game](https://card-game-matildadelacourt.netlify.app)
 
 
