@@ -11,32 +11,7 @@ npm install
 1. Prettier
 2. ESLint
 
-## Write Code
+# [Guess My Card Game](https://card-game-matildadelacourt.netlify.app)
 
-1. Card game logic in app.js
 
-## Run development
-
-```bash
-npm run dev
-```
-
-It will be served on port 3000
-
-[http://localhost:3000/](http://localhost:3000/)
-
-## Run build
-
-```bash
-npm run build
-```
-
-## Run server
-
-```bash
-npm run serve
-```
-
-It will be served on port 5000
-
-[http://localhost:5000/](http://localhost:5000/)
+<img width="1678" alt="Screen Shot 2022-03-08 at 4 09 50 PM" src="https://user-images.githubusercontent.com/73936419/157325601-0bb8c4a2-8b9e-4e6a-a86d-bd50812ebac8.png">
